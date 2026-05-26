@@ -1104,7 +1104,24 @@ ul {
   font-size: 1.6rem;
   font-weight: 700;
   margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+}
+/* --- Contact Section --- */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+.contact-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.contact-info-card {
+  padding: 2rem;
+}
+.contact-form-card {
+  padding: 2.5rem;
 }
 
 /* Forms */
@@ -1573,6 +1590,9 @@ ul {
     grid-template-columns: 1fr;
   }
   .guestbook-grid {
+    grid-template-columns: 1fr;
+  }
+  .contact-grid {
     grid-template-columns: 1fr;
   }
 }
